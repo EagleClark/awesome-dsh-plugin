@@ -6879,6 +6879,7 @@ dsh plugin --profile web add dshmarket
 - [dingchenhui0618-arch/dsh-turing-table](https://github.com/dingchenhui0618-arch/dsh-turing-table) — 拿你自己的模型配置当对手玩的社交推理游戏。一张桌子有 N 个座位（默认 6 个，其中一个是你的），其余若干座位由绑定了不同 provider、model、temperature、system prompt 与伪装参数的 agent 扮演；你通过提问和交叉印证，判断哪些座位不是人。座位身份与每个 agent 的模型配置在判定前都不出现在 host 状态里，判定后才揭晓伪装参数。每局导出逐席位对话 JSONL 与判定记录，同一 seed 加同一份操作脚本可复现出逐字节相同的对局，于是换模型、换提示词、换伪装强度的几局可以直接 diff。
 - [dleaf6211-hash/dsh-whale-pet](https://github.com/dleaf6211-hash/dsh-whale-pet) — DeepSeek Harness 的鲸鱼娘桌宠：浏览器悬浮桌宠与 Windows 桌面桌宠共享一套数据，实时余额木牌、任务通知、摸头互动、19 句预合成带情感的台词朗读，空闲节奏随是否在场自适应。
 - [drliuhuan/dsh-plugin-vrmpet3d](https://github.com/drliuhuan/dsh-plugin-vrmpet3d) — 支持任务状态联动动画、独立悬浮窗、部位互动和可选 AI 碎碎念的 VRM 3D 桌宠。
+- [EagleClark/dsh-genshin-account](https://github.com/EagleClark/dsh-genshin-account) — 把原神账号读成一份快照（角色、天赋、武器、圣遗物、祈愿记录），对外给 6 个 agent 工具和一个六页签面板。圣遗物副词条取自游戏内公开的角色展柜；评分同时给 CV 与逐角色权重两套模型，各六档评级；抽卡分析包含保底、欧非分档与各池进度。
 - [Eapp1e/dsh-poker](https://github.com/Eapp1e/dsh-poker) — DeepSeek Harness 的德州扑克插件：无限注规则、机器人对手、真实感牌桌，教练模式讲解打法与赔率。
 - [Entaum/dsh-free-games](https://github.com/Entaum/dsh-free-games) — 在 DeepSeek Harness Web 侧边栏中添加 Spawnd.gg 游戏柜，支持搜索、排序、悬停预览、嵌入式游玩和最小化播放器。
 - [eric-song-dev/dsh-ikun-pet](https://github.com/eric-song-dev/dsh-ikun-pet) — ikun 桌宠填满「Deep diving...」状态行下方整行区块：坤宠动图沿 0%→100% 进度条行走，每 20% 切换动作与文案，完成时系统级播放「你干嘛~哎哟」提示音。
